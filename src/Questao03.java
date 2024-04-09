@@ -50,6 +50,12 @@ public class Questao03 {
                     double x = (x1 * p1) + (x2 * p2) + (x3 * p3);
                     x = x / (p1 + p2 + p3);
                     System.out.println("\nA média ponderada é: " + x);
+                    break;
+                case 3:
+                    System.out.println("\nFim do Programa!");
+                    break;
+                default:
+                    System.out.println("\nOpção Inválida!");
             }
 
         } while (opcao != 3);
