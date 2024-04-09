@@ -1,3 +1,6 @@
+/*Sendo H = 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, fazer um algoritmo, utilizando o comando para ... faça, para gerar o número H. O número N é lido através de uma
+unidade de entrada qualquer uma única vez. */
+
 import java.util.Scanner;
 
 public class Questao08 {
