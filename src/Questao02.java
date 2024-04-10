@@ -36,13 +36,14 @@ public class Questao02 {
                 }
             } while (canal != 0);
         canal4 = canal4 * 100 / pessoasTotal;
+        canal5 = canal5 * 100 / pessoasTotal;
+        canal7 = canal7 * 100 / pessoasTotal;
+        canal12 = canal12 * 100 / pessoasTotal;
 
-        System.out.printf("Audiência do Canal 4: %.2f" , canal4);
-        System.out.println(canal5);
-        System.out.println(canal7);
-        System.out.println(canal12);
-        System.out.println(pessoasTotal);
-
+        System.out.println("\nAudiência do Canal 4: " + canal4 + "%");
+        System.out.println("Audiência do Canal 5: " + canal5 + "%");
+        System.out.println("Audiência do Canal 7: " + canal7 + "%");
+        System.out.println("Audiência do Canal 12: " + canal12 + "%");
 
         in.close();
     }
