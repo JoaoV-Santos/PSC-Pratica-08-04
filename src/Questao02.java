@@ -4,10 +4,10 @@ public class Questao02 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-            int canal = 0, pessoas = 0, pessoasTotal = 0;
-            int canal4 = 0, canal5 = 0, canal7 = 0, canal12 = 0;
+        int canal = 0, pessoas = 0, pessoasTotal = 0;
+        int canal4 = 0, canal5 = 0, canal7 = 0, canal12 = 0;
 
-            do {
+        do {
                 System.out.print("Informe o número do canal que está sendo assistido (4, 5, 7 ou 12): ");
                 canal = in.nextInt();
                 if (canal == 0)
@@ -35,8 +35,9 @@ public class Questao02 {
                         System.out.println("\nCanal Inválido!");
                 }
             } while (canal != 0);
+        canal4 = canal4 * 100 / pessoasTotal;
 
-        System.out.println(canal4);
+        System.out.printf("Audiência do Canal 4: %.2f" , canal4);
         System.out.println(canal5);
         System.out.println(canal7);
         System.out.println(canal12);
